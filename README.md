@@ -26,7 +26,7 @@ Was posted on Fedora Magazine https://fedoramagazine.org/
   sudo ln -s python3 python
   ```
   
-
+## Docker
 - To add $user to the docker group so you can run docker commands as a regular user.
 ```
 sudo groupadd docker
@@ -36,8 +36,7 @@ sudo usermod -aG docker $USER
 - I restarted the docker service just in case. ```sudo service docker restart```
 - See: https://docs.docker.com/engine/install/linux-postinstall/
 
-
-References:
+# References
 - Testcontainers.org: https://www.testcontainers.org/
 - Container Utilities: https://github.com/user-cont/conu
 - Error docker (cgroups: cannot found cgroup mount destination: unknown): https://github.com/docker/for-linux/issues/219#issuecomment-375160449
