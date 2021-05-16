@@ -1,6 +1,6 @@
 # testcontainers-python-and-conu
 
-## Blogpost I follow during this video
+## Blogpost
 The original blogpost with the steps to setup Python testcontainers with ConU on Fedora.
 https://fedoramagazine.org/test-containers-python-conu/
 
