@@ -1,11 +1,12 @@
 # testcontainers-python-and-conu
 
+## Blogpost I follow during this video
 The original blogpost with the steps to setup Python testcontainers with ConU on Fedora.
 https://fedoramagazine.org/test-containers-python-conu/
 
 Was posted on Fedora Magazine https://fedoramagazine.org/
 
-
+## Python
 - Python was version 3.9 initially. I used the alternatives to configure another version of Python on my system. Information on Alternatives https://linuxconfig.org/how-to-switch-between-python-versions-on-fedora-linux
 - Installing python 3.7 ```sudo dnf install -y python3.7```
   - After that I called the following command
@@ -37,6 +38,7 @@ sudo usermod -aG docker $USER
 
 
 References:
+- Testcontainers.org: https://www.testcontainers.org/
 - Container Utilities: https://github.com/user-cont/conu
 - Error docker (cgroups: cannot found cgroup mount destination: unknown): https://github.com/docker/for-linux/issues/219#issuecomment-375160449
 - (Not in the video but found it valueble to share) https://conu.readthedocs.io/en/latest/reference/fixtures_index.html
